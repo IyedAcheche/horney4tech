@@ -1,9 +1,9 @@
 import { Headphones, Users } from 'lucide-react';
 import { WordCarousel } from './WordCarousel';
 
-// Placeholder images - replace with actual images in /public folder
-const logo = '/horney4tech/logo.svg';
-const groupPhoto = '/horney4tech/team-photo.svg';
+// Team assets
+const logo = '/horney4tech/logo.png';
+const groupPhoto = '/horney4tech/team-photo.jpg';
 
 export function Hero() {
   const scrollToSection = (id: string) => {
