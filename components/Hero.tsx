@@ -1,8 +1,9 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Headphones, Users } from 'lucide-react';
-import groupPhoto from 'figma:asset/cab3672fb3339850deb21e46607e630c6ac3a0e9.png';
-import logo from 'figma:asset/ae97dd2b7ebc90d7382e7cbf40cedc75e75ba975.png';
 import { WordCarousel } from './WordCarousel';
+
+// Placeholder images - replace with actual images in /public folder
+const logo = '/horney4tech/logo.svg';
+const groupPhoto = '/horney4tech/team-photo.svg';
 
 export function Hero() {
   const scrollToSection = (id: string) => {
@@ -36,7 +37,7 @@ export function Hero() {
         <div className="text-center max-w-5xl mx-auto">
           {/* Logo */}
           <div className="mb-2 flex justify-center">
-            <ImageWithFallback 
+            <img 
               src={logo}
               alt="HORNEY4TECH Logo"
               className="w-64 h-64 object-contain"
@@ -66,7 +67,7 @@ export function Hero() {
           {/* Group Photo */}
           <div className="mb-12 relative inline-block">
             <div className="absolute inset-0 bg-gradient-to-br from-[var(--color-burnt-orange)] to-[var(--color-dark-orange)] rounded-2xl blur-xl opacity-30"></div>
-            <ImageWithFallback 
+            <img 
               src={groupPhoto}
               alt="HORNEY4TECH Team"
               className="relative rounded-2xl w-full max-w-2xl h-80 object-cover border-4 border-[var(--color-burnt-orange)]/30"

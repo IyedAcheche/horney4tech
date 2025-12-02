@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <circle cx="128" cy="128" r="120" fill="#C75B1E" opacity="0.1"/>
+  <circle cx="128" cy="128" r="90" fill="#C75B1E" opacity="0.2"/>
+  <circle cx="128" cy="128" r="60" fill="#C75B1E"/>
+  <!-- Microphone icon -->
+  <rect x="113" y="70" width="30" height="50" rx="15" fill="#FDF5E8"/>
+  <rect x="108" y="105" width="40" height="8" rx="4" fill="#FDF5E8" opacity="0.5"/>
+  <path d="M108 115 Q108 140 128 140 Q148 140 148 115" stroke="#FDF5E8" stroke-width="6" fill="none"/>
+  <line x1="128" y1="140" x2="128" y2="165" stroke="#FDF5E8" stroke-width="6"/>
+  <line x1="113" y1="165" x2="143" y2="165" stroke="#FDF5E8" stroke-width="6" stroke-linecap="round"/>
+  <!-- Heart accent -->
+  <path d="M175 95 C175 85 185 80 190 80 C200 80 205 90 205 95 C205 115 190 130 190 130 C190 130 175 115 175 95" fill="#A64B15"/>
+  <!-- Text H4T -->
+  <text x="128" y="205" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="28" font-weight="900" fill="#C75B1E">H4T</text>
+</svg>
+
