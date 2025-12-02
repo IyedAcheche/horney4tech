@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "date": "November 09, 2025",
+        "duration": "02:36:34",
+        "tag": "AI Deep Dive",
+        "title": "ChatGPT-5: The Future is Now",
+        "guest": "with Dr. Sarah Chen",
+        "description": "Join Professor Mat Wenzel and Dr. Sarah Chen as we explore the latest developments in AI language models. From ethical implications to mind-blowing capabilities, we're getting absolutely turned on by the future of artificial intelligence. Spoiler: the robots are coming, and we're here for it."
+    },
+    {
+        "id": 2,
+        "date": "November 02, 2025",
+        "duration": "02:41:24",
+        "tag": "Startup Stories",
+        "title": "From Dorm Room to IPO: The Silicon Valley Dream",
+        "guest": "with Alex Martinez, Founder of TechFlow",
+        "description": "Ever wondered what it takes to build a billion-dollar startup? Alex Martinez shares the wild ride from coding in a college dorm to ringing the NASDAQ bell. It's messy, it's stressful, and it's absolutely exhilarating. Get ready for some serious entrepreneurial inspiration."
+    },
+    {
+        "id": 3,
+        "date": "October 26, 2025",
+        "duration": "02:32:32",
+        "tag": "Cybersecurity",
+        "title": "Hackers, Passwords, and Digital Disasters",
+        "guest": "with Marcus Black, Ethical Hacker",
+        "description": "Marcus Black reveals the dark arts of cybersecurity. Learn why your 'password123' isn't cutting it, how hackers think, and what you can do to protect yourself in an increasingly digital world. This episode will make you paranoid in the best way possible."
+    },
+    {
+        "id": 4,
+        "date": "October 19, 2025",
+        "duration": "02:58:27",
+        "tag": "Web3 & Crypto",
+        "title": "NFTs Are Dead, Long Live NFTs",
+        "guest": "with Jamie Wu, Blockchain Developer",
+        "description": "Is Web3 the future or just expensive JPEGs? Jamie Wu helps us navigate the confusing world of blockchain, crypto, and decentralization. We're diving into what actually works, what's total BS, and where this technology might actually change the world."
+    },
+    {
+        "id": 5,
+        "date": "October 12, 2025",
+        "duration": "01:51:51",
+        "tag": "Gadget Reviews",
+        "title": "Tech We're Actually Using in 2025",
+        "guest": "with the Horny4Tech Team",
+        "description": "From smart fridges to AR glasses, we review the tech that's actually worth your hard-earned cash. Professor Wenzel shares his latest tech obsessions, and the team debates which gadgets are revolutionary versus which ones are destined for the landfill."
+    },
+    {
+        "id": 6,
+        "date": "October 05, 2025",
+        "duration": "02:11:15",
+        "tag": "Coding Talk",
+        "title": "The Programming Languages You Should Learn in 2025",
+        "guest": "with Lisa Thompson, Senior Engineer at Google",
+        "description": "Should you learn Rust? Is Python still king? What about JavaScript frameworks (there are 10,000 now)? Lisa Thompson breaks down the programming landscape and helps you figure out where to invest your learning time. Whether you're a beginner or a seasoned dev, this one's for you."
+    }
+]
