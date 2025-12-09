@@ -66,7 +66,7 @@ const episodes = [
         title: "Hackers, Passwords, and Digital Disasters",
         guest: "with Marcus Black, Ethical Hacker",
         description: "Marcus Black reveals the dark arts of cybersecurity. Learn why your 'password123' isn't cutting it, how hackers think, and what you can do to protect yourself in an increasingly digital world. This episode will make you paranoid in the best way possible.",
-        link: "https://soundcloud.com/horney-for-tech/podcast_3_horny4tech"
+        link: "https://soundcloud.com/horney-for-tech/episode-3"
     },
     {
         id: 4,
