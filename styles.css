@@ -483,6 +483,36 @@ body {
     color: var(--bg-lighter);
 }
 
+.episode-card-clickable {
+    cursor: pointer;
+}
+
+.episode-listen-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--bg-white);
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 2px solid var(--text-dark);
+    transition: var(--transition);
+    text-align: center;
+}
+
+.episode-listen-btn:hover {
+    background-color: var(--text-dark);
+    color: var(--bg-white);
+    transform: translateY(-2px);
+}
+
+.episode-card:hover .episode-listen-btn {
+    background-color: var(--text-dark);
+    color: var(--bg-white);
+}
+
 .episode-header {
     display: flex;
     justify-content: space-between;

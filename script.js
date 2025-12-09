@@ -65,7 +65,8 @@ const episodes = [
         tag: "Cybersecurity",
         title: "Hackers, Passwords, and Digital Disasters",
         guest: "with Marcus Black, Ethical Hacker",
-        description: "Marcus Black reveals the dark arts of cybersecurity. Learn why your 'password123' isn't cutting it, how hackers think, and what you can do to protect yourself in an increasingly digital world. This episode will make you paranoid in the best way possible."
+        description: "Marcus Black reveals the dark arts of cybersecurity. Learn why your 'password123' isn't cutting it, how hackers think, and what you can do to protect yourself in an increasingly digital world. This episode will make you paranoid in the best way possible.",
+        link: "https://soundcloud.com/horney-for-tech/podcast_3_horny4tech"
     },
     {
         id: 4,
@@ -139,8 +140,11 @@ if (loadMoreBtn) {
 // CREATE EPISODE CARD (for grid display)
 // ==================== //
 function createEpisodeCard(episode) {
+    const linkButton = episode.link ? `<a href="${episode.link}" target="_blank" class="episode-listen-btn">🎧 Listen Now</a>` : '';
+    const cardClass = episode.link ? 'episode-card episode-card-clickable' : 'episode-card';
+    
     return `
-        <div class="episode-card">
+        <div class="${cardClass}" ${episode.link ? `onclick="window.open('${episode.link}', '_blank')"` : ''}>
             <div class="episode-tag">${episode.tag}</div>
             <div class="episode-header">
                 <div class="episode-meta">
@@ -151,6 +155,7 @@ function createEpisodeCard(episode) {
             <h3 class="episode-title">${episode.title}</h3>
             <div class="episode-guest">${episode.guest}</div>
             <p class="episode-description">${episode.description}</p>
+            ${linkButton}
         </div>
     `;
 }
@@ -159,8 +164,11 @@ function createEpisodeCard(episode) {
 // CREATE FULL EPISODE CARD (for list display)
 // ==================== //
 function createEpisodeCardFull(episode) {
+    const linkButton = episode.link ? `<a href="${episode.link}" target="_blank" class="episode-listen-btn">🎧 Listen Now on SoundCloud</a>` : '';
+    const cardClass = episode.link ? 'episode-card-full episode-card-clickable' : 'episode-card-full';
+    
     return `
-        <div class="episode-card-full">
+        <div class="${cardClass}" ${episode.link ? `onclick="window.open('${episode.link}', '_blank')"` : ''}>
             <div class="episode-tag">${episode.tag}</div>
             <div class="episode-header">
                 <div class="episode-meta">
@@ -171,6 +179,7 @@ function createEpisodeCardFull(episode) {
             <h3 class="episode-title">${episode.title}</h3>
             <div class="episode-guest">${episode.guest}</div>
             <p class="episode-description">${episode.description}</p>
+            ${linkButton}
         </div>
     `;
 }
